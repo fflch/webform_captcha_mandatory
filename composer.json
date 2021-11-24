@@ -1,0 +1,11 @@
+{
+    "name": "fflch/webform_captcha_mandatory",
+    "description": "webform_captcha_mandatory",
+    "type": "drupal-module",
+    "authors": [
+        {
+            "name": "Thiago Gomes Verissimo",
+            "email": "verissimotgv@gmail.com"
+        }
+    ]
+}
