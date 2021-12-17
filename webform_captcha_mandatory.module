@@ -36,19 +36,12 @@ function webform_captcha_mandatory_validate(&$form, FormStateInterface $form_sta
  */
 function has_captcha_webform(Array $elements) {
 
-    foreach($elements['elements'] as $element){
-        if($element['#webform_plugin_id'] == 'webform_wizard_page') {
-            foreach($element as $field){
-                if($field['#type'] == 'captcha') {
-                    return true;
-                }
-            }
-        }
-        elseif($element['#type'] == 'captcha') {
-            return true;
-        }
+    foreach($elements as $element) {
+       if($element['#type'] == 'captcha') {
+           return TRUE;
+       }
     }
 
-    return false;
+    return FALSE;
 
 }
