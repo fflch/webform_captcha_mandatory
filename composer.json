@@ -1,5 +1,5 @@
 {
-    "name": "fflch/webform_captcha_mandatory",
+    "name": "drupal/webform_captcha_mandatory",
     "description": "webform_captcha_mandatory",
     "type": "drupal-module",
     "authors": [
